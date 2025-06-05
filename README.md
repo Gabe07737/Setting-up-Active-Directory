@@ -47,16 +47,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/b662bb45-a4dc-4196-8dc7-64a941b71a02" height="75%" width="100%" alt="vm ms server"/>
 </p>
 <p>
-  Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in previous step:
+  Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in previous step. Make sure it is in the same network as domain virtual machine:
 </p>
 <p>
-  <img src="https://i.imgur.com/XyEmv8f.png" height="75%" width="100%" alt="vm windows"/>
+  <img src="https://github.com/user-attachments/assets/46ae8329-3ecf-43ef-a049-04b6867d17f9" height="75%" width="100%" alt="vm windows"/>
+  <img src="https://github.com/user-attachments/assets/4c684b7b-6de5-468b-8f9b-45035f80d104" height="75%" width="100%" alt="vm windows"/>
+  <img src="https://github.com/user-attachments/assets/41307718-93c1-4a55-ac64-1a845607a9c4" height="75%" width="100%" alt="vm windows"/>
 </p>
 <p>
   Set Domain Controller’s NIC Private IP address to be static:
 </p>
 <p>
-  <img src="https://i.imgur.com/KHU9kC4.png" height="75%" width="100%" alt="static ip"/>
+  <img src="https://github.com/user-attachments/assets/5c4f10d6-e0b4-455f-ab19-48348da31adf" height="75%" width="100%" alt="static ip"/>
+  <img src="https://github.com/user-attachments/assets/227f194c-e95f-4d45-931b-40e5f760b721" height="75%" width="100%" alt="static ip"/>
+  <img src="https://github.com/user-attachments/assets/6374f4bb-16ae-4b8c-b5c4-4a3bb63d4bca" height="75%" width="100%" alt="static ip"/>
 </p>
 <p>
   Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher):
@@ -72,7 +76,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping):
 </p>
 <p>
-  <img src="https://i.imgur.com/bnPM9tX.png" height="75%" width="100%" alt="perpetual ping"/>
+  <img src="https://github.com/user-attachments/assets/c8a852cf-e468-4b9f-a640-0a86a9f8e5dc" height="75%" width="100%" alt="perpetual ping"/>
 </p>
 <p>
   Login to the Domain Controller and enable ICMPv4 in on the local windows firewall:
