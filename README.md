@@ -41,8 +41,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Create the Domain Controller VM (Windows Server 2022) named “DC-1”:
 </p>
 <p>
-  <img src="https://i.imgur.com/gaAzjvb.png" height="75%" width="100%" alt="resource group"/>
-  <img src="https://i.imgur.com/hubTfey.png" height="75%" width="100%" alt="vm ms server"/>
+  <img src="https://github.com/user-attachments/assets/c74e6c4e-c1e8-422b-930a-d082a3fd0854" height="75%" width="100%" alt="resource group"/>
+  <img src="https://github.com/user-attachments/assets/36da890e-b44d-4862-877e-13d7c29a5e07" height="75%" width="100%" alt="vm ms server"/>
+  <img src="https://github.com/user-attachments/assets/783bb5bd-5266-44b9-9aec-2e183c47e088" height="75%" width="100%" alt="vm ms server"/>
+  <img src="https://github.com/user-attachments/assets/b662bb45-a4dc-4196-8dc7-64a941b71a02" height="75%" width="100%" alt="vm ms server"/>
 </p>
 <p>
   Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in previous step:
