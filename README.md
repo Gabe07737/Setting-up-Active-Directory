@@ -134,13 +134,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
   In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES” and another one called "_ADMINS":
 </p>
 <p>
-  <img src="https://i.imgur.com/cYmv0r7.png" height="75%" width="100%" alt="organizational unit"/>
-  <img src="https://i.imgur.com/v02CBPI.png" height="75%" width="100%" alt="organizational unit"/>
+  <img src="https://github.com/user-attachments/assets/96a12998-ef61-491a-aacb-93e3d43cf3ac" height="75%" width="100%" alt="organizational unit"/>
+  <img src="https://github.com/user-attachments/assets/a18ff4be-bfe7-42f2-a9b1-3f8f8bc035f9" height="75%" width="100%" alt="organizational unit"/>
+  <img src="https://github.com/user-attachments/assets/8b0f2572-0123-4a09-b4dd-35373f0a4d5c" height="75%" width="100%" alt="organizational unit"/>
 </p>
 <p>
   Create a new employee named “Jane Doe” with the username of “jane_admin”:
 </p>
 <p>
+  <img src="https://github.com/user-attachments/assets/233ae5aa-604a-4afd-a4b7-1dff1e102b9e" height="75%" width="100%" alt="admin creation"/>
+  <img src="https://github.com/user-attachments/assets/8446e171-e68e-45aa-abca-4d76a7fc43cb" height="75%" width="100%" alt="admin creation"/>
   <img src="https://i.imgur.com/h546E6L.png" height="75%" width="100%" alt="admin creation"/>
 </p>
 <p>
