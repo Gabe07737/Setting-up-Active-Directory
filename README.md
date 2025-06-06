@@ -79,17 +79,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/c8a852cf-e468-4b9f-a640-0a86a9f8e5dc" height="75%" width="100%" alt="perpetual ping"/>
 </p>
 <p>
-  Login to the Domain Controller and enable ICMPv4 in on the local windows firewall:
+  Login to the Domain Controller and disable the Windows Firewall (for testing connectivity):
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/126b3f22-596c-4547-b1f6-c8e9ad502672" height="75%" width="100%" alt="enable ICMPv4"/>
   <img src="https://github.com/user-attachments/assets/c33dacf2-cfc0-443b-878a-25c6da6452c7" height="75%" width="100%" alt="enable ICMPv4"/>
-  <img src="https://i.imgur.com/ZpPyEkt.png" height="75%" width="100%" alt="enable ICMPv4"/>
 </p>
 <p>
-  Check back at Client-1 to see the ping succeed:
+  Attempt to ping DC-1’s private IP address,ensure the ping succeeded
 </p>
 <p>
+  <img src="https://github.com/user-attachments/assets/89b91251-024d-4df6-887b-984c6a18dacc" height="75%" width="100%" alt="ping success"/>
+ </p>
+<p> 
+  
+  <img src="https://github.com/user-attachments/assets/922e1a52-0e5c-44bf-8a08-3e9d968d08fe" height="75%" width="100%" alt="ping success"/>
   <img src="https://i.imgur.com/8o3OfjY.png" height="75%" width="100%" alt="ping success"/>
 </p>
 <br />
