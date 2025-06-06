@@ -115,16 +115,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/fc0c5dcb-da3d-4b67-b3d6-0ceefa053f1b" height="75%" width="100%" alt="domain controller promotion"/>
 </p>
 <p>
-  Setup a new forest as myactivedirectory.com (can be anything, just remember what it is - I ultimately did set it up as myadproject.com which you'll see in the next pic):
+  Setup a new forest as mydomain.com (can be anything, just remember what it is - I ultimately did set it up as myadproject.com which you'll see in the next pic):
 </p>
 <p>
-  <img src="https://i.imgur.com/DCFUVrM.png" height="75%" width="100%" alt="set new forest"/>
+  <img src="https://github.com/user-attachments/assets/89831c0f-7bac-4d8c-9eca-d56e66d46c89" height="75%" width="100%" alt="set new forest"/>
 </p>
 <p>
   Restart and then log back into DC-1 as user: myadproject.com\labuser:
 </p>
 <p>
-  <img src="https://i.imgur.com/7UakWMQ.png" height="75%" width="100%" alt="fqdn login"/>
+  <img src="https://github.com/user-attachments/assets/0856aa21-3f56-4211-b871-b9d899abe264" height="75%" width="100%" alt="fqdn login"/>
 </p>
 <br />
 <br />
