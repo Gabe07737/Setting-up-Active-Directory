@@ -79,8 +79,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/c8a852cf-e468-4b9f-a640-0a86a9f8e5dc" height="75%" width="100%" alt="perpetual ping"/>
 </p>
 <p>
-  Login to the Domain Controller and disable the Windows Firewall (for testing connectivity):
-</p>
+  Login to the Domain Controller and disable the Windows Firewall (for testing connectivity).Make sure the Domain,Private and Public profile tab is off:
 <p>
   <img src="https://github.com/user-attachments/assets/126b3f22-596c-4547-b1f6-c8e9ad502672" height="75%" width="100%" alt="enable ICMPv4"/>
   <img src="https://github.com/user-attachments/assets/c33dacf2-cfc0-443b-878a-25c6da6452c7" height="75%" width="100%" alt="enable ICMPv4"/>
