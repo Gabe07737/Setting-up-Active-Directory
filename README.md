@@ -149,13 +149,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Add jane_admin to the “Domain Admins” Security Group:
 </p>
 <p>
-  <img src="https://i.imgur.com/mnLwTgq.png" height="75%" width="100%" alt="security group"/>
+  <img src="https://github.com/user-attachments/assets/0167e979-b260-4422-ae3c-28f13ae77fcb" height="75%" width="100%" alt="security group"/>
+  <img src="https://github.com/user-attachments/assets/6c30fa79-cb89-4c16-8865-ca4455a30cdc" height="75%" width="100%" alt="security group"/>
+  <img src="https://github.com/user-attachments/assets/c657b36a-3e56-4022-a4a2-2e8ba44e10ea" height="75%" width="100%" alt="security group"/>
 </p>
 <p>  
   Log out/close the Remote Desktop connection to DC-1 and log back in as “myadproject.com\jane_admin”. Use jane_admin as your admin account from now on:
 </p>
 <p>
-  <img src="https://i.imgur.com/xWZ4Kol.png" height="75%" width="100%" alt="admin login"/>
+  <img src="https://github.com/user-attachments/assets/563c38b2-6abb-4d70-b6e4-1d2eeb646cf9" height="75%" width="100%" alt="admin login"/>
 </p>
 <br />
 <br />
@@ -174,7 +176,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart):
 </p>
 <p>
-  <img src="https://i.imgur.com/50wszcP.png" height="75%" width="100%" alt="domain joining"/>
+  <img src="https://github.com/user-attachments/assets/4f18b1e0-ace7-4b68-ae7a-dd2fd96b2729" height="75%" width="100%" alt="domain joining"/>
+  <img src="https://github.com/user-attachments/assets/e66cf005-e4a4-4978-84af-d3de603f7a6a" height="75%" width="100%" alt="domain joining"/>
+  <img src="https://github.com/user-attachments/assets/92c23fb4-b871-4fc5-a5ca-4e44ffbbe694" height="75%" width="100%" alt="domain joining"/>
 </p>
 <p>
   Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain.
