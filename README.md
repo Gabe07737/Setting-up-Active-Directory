@@ -187,7 +187,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Create a new OU named “_CLIENTS” and drag Client-1 into there:
 </p>
 <p>
-  <img src="https://i.imgur.com/vB1n9m0.png" height="75%" width="100%" alt="active directory client verification"/>
+  <img src="https://github.com/user-attachments/assets/cbf15328-cdfc-49e4-b000-948b33ea1642" height="75%" width="100%" alt="active directory client verification"/>
 </p>
 <br />
 <br />
@@ -209,7 +209,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Normally you’d want to do this with Group Policy that allows you to change MANY systems at once (maybe a future lab):
 </p>
 <p>
-  <img src="https://i.imgur.com/8BfpT3s.png" height="75%" width="100%" alt="remote desktop setup"/>
+  <img src="https://github.com/user-attachments/assets/200ef0ef-c7e5-42cf-89f2-1da74f296e2e" height="75%" width="100%" alt="remote desktop setup"/>
+  <img src="https://github.com/user-attachments/assets/4f68917c-27a2-45be-bd90-50763b611f65" height="75%" width="100%" alt="remote desktop setup"/>
+  <img src="https://github.com/user-attachments/assets/e00572be-8b19-4270-ae47-788b5719db27" height="75%" width="100%" alt="remote desktop setup"/>
 </p>
 <br />
 <br />
@@ -225,21 +227,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Create a new File and paste the contents of this script (https://github.com/Xinloiazn/configure-ad/blob/main/adscript.ps1) into it:
 </p>
 <p>
-  <img src="https://i.imgur.com/0i8uApf.png" height="75%" width="100%" alt="create users script"/>
+  <img src="https://github.com/user-attachments/assets/fcbb5fde-df52-4fa3-93d2-e1809a574d53" height="75%" width="100%" alt="create users script"/>
+  <img src="https://github.com/user-attachments/assets/7afbe7fc-29e7-451c-b621-a714c26a1309" height="75%" width="100%" alt="create users script"/>
+  <img src="https://github.com/user-attachments/assets/0ef2ca27-1c58-4eb9-a221-288838749425" height="75%" width="100%" alt="create users script"/>
 </p>
 <p>
   Run the script and observe the accounts being created:
 </p>
 <p>
-  <img src="https://i.imgur.com/6QOGzs6.png" height="75%" width="100%" alt="observe create users script"/>
+  <img src="https://github.com/user-attachments/assets/61d567df-e1fe-4369-a7b6-a0bf40cf11af" height="75%" width="100%" alt="observe create users script"/>
+  <img src="https://github.com/user-attachments/assets/5321cfdb-929e-4762-9162-6e08c0f42aa4" height="75%" width="100%" alt="observe create users script"/>
 </p>
 <p>
   When finished, open ADUC and observe the accounts in the appropriate OU and attempt to log into Client-1 with one of the accounts (take note of the password in the script):
 </p>
 <p>
-  <img src="https://i.imgur.com/ZZCfiCp.png" height="75%" width="100%" alt="employee user accounts"/>
-  <img src="https://i.imgur.com/7gBpNzN.png" height="75%" width="100%" alt="employee user selection"/>
-  <img src="https://i.imgur.com/cqsddjn.png" height="75%" width="100%" alt="employee user login"/>
+  <img src="https://github.com/user-attachments/assets/fc6db140-599c-4908-bb0b-c50af19da6be" height="75%" width="100%" alt="employee user accounts"/>
+  <img src="https://github.com/user-attachments/assets/a4e5ed5c-8393-4ad0-ae9a-e093c360fab7" height="75%" width="100%" alt="employee user selection"/>
+  <img src="https://github.com/user-attachments/assets/17d5097f-3f20-4f32-9557-9261253b478e" height="75%" width="100%" alt="employee user login"/>
 </p>
 <br />
 <br />
