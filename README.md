@@ -151,6 +151,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
   <img src="https://github.com/user-attachments/assets/0167e979-b260-4422-ae3c-28f13ae77fcb" height="75%" width="100%" alt="security group"/>
   <img src="https://github.com/user-attachments/assets/6c30fa79-cb89-4c16-8865-ca4455a30cdc" height="75%" width="100%" alt="security group"/>
+</p>
+<p>
+  Make sure to click "Apply" then "Okay" to confirm the changes.
+</p>
+<p>
   <img src="https://github.com/user-attachments/assets/c657b36a-3e56-4022-a4a2-2e8ba44e10ea" height="75%" width="100%" alt="security group"/>
 </p>
 <p>  
