@@ -143,7 +143,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
   <img src="https://github.com/user-attachments/assets/233ae5aa-604a-4afd-a4b7-1dff1e102b9e" height="75%" width="100%" alt="admin creation"/>
   <img src="https://github.com/user-attachments/assets/8446e171-e68e-45aa-abca-4d76a7fc43cb" height="75%" width="100%" alt="admin creation"/>
-  <img src="https://i.imgur.com/h546E6L.png" height="75%" width="100%" alt="admin creation"/>
 </p>
 <p>
   Add jane_admin to the “Domain Admins” Security Group:
