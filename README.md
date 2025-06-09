@@ -63,10 +63,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/6374f4bb-16ae-4b8c-b5c4-4a3bb63d4bca" height="75%" width="100%" alt="static ip"/>
 </p>
 <p>
-  Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher):
+  From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address:
 </p>
 <p>
-  <img src="https://i.imgur.com/rFpHLdQ.png" height="75%" width="100%" alt="topology"/>
+  <img src="https://github.com/user-attachments/assets/13c6e1d0-23fc-4f98-a718-1c3d99e20e31" height="75%" width="100%" alt="client dns settings"/>
+  <img src="https://github.com/user-attachments/assets/0a43a6a6-69ea-4ebe-9609-4305b776f1be" height="75%" width="100%" alt="client dns settings"/>
 </p>
 <br />
 <br />
@@ -90,8 +91,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
   <img src="https://github.com/user-attachments/assets/89b91251-024d-4df6-887b-984c6a18dacc" height="75%" width="100%" alt="ping success"/>
  </p>
-<p> 
-  
+<p>   
   <img src="https://github.com/user-attachments/assets/922e1a52-0e5c-44bf-8a08-3e9d968d08fe" height="75%" width="100%" alt="ping success"/>
   <img src="https://i.imgur.com/8o3OfjY.png" height="75%" width="100%" alt="ping success"/>
 </p>
@@ -138,7 +138,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/8b0f2572-0123-4a09-b4dd-35373f0a4d5c" height="75%" width="100%" alt="organizational unit"/>
 </p>
 <p>
-  Create a new employee named “Jane Doe” with the username of “jane_admin”:
+  Create a new admin named “Jane Doe” with the username of “jane_admin”:
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/233ae5aa-604a-4afd-a4b7-1dff1e102b9e" height="75%" width="100%" alt="admin creation"/>
@@ -163,12 +163,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <h3 align="center">Join Client-1 to your domain (myadproject.com)</h3>
 <br />
-<p>
-  From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address:
-</p>
-<p>
-  <img src="https://i.imgur.com/1KRsjI6.png" height="75%" width="100%" alt="client dns settings"/>
-</p>
 <p>
   From the Azure Portal, restart Client-1.
 </p>
