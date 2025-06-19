@@ -100,8 +100,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/a18a2157-513f-4261-8dfc-ece51d82a509" height="75%" width="100%" alt="active directory install"/>
-  <img src="https://github.com/user-attachments/assets/fd991303-597a-4fdc-88b3-308258e87692" height="75%" width="100%" alt="active directory install"/>
-  <img src="https://github.com/user-attachments/assets/79a608a9-b8f1-469c-ae10-b2f70da4dd58" height="75%" width="100%" alt="active directory install"/:
+  <img src="https://github.com/user-attachments/assets/c1a96c20-6767-471c-9fff-771700fb0651" height="75%" width="100%" alt="active directory install"/>
+  <img src="https://github.com/user-attachments/assets/f118e846-d364-42aa-a6ef-e73d47491ae4" height="75%" width="100%" alt="active directory install"/:
 </p>
 <p>
   Promote as a Domain Controller:
