@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Ensure Connectivity between the client and Domain Controller
 - Install Active Directory
 - Create an Admin and Normal User Account in AD
-- Join Client-1 to your domain (myadproject.com)
+- Join Client-1 to your domain (mydomain.com)
 - Setup Remote Desktop for non-administrative users on Client-1
 - Create additional users and attempt to log into client-1 with one of the users
 
@@ -38,7 +38,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h3 align="center">Setup Resources in Azure</h3>
 <br />
 <p>
-  Create the Domain Controller VM (Windows Server 2022) named “DC-1”:
+  Create A Resource Group called RG-AD and a Domain Controller VM (Windows Server 2022). Name it “DC-1”:
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/c74e6c4e-c1e8-422b-930a-d082a3fd0854" height="75%" width="100%" alt="resource group"/>
@@ -116,7 +116,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/89831c0f-7bac-4d8c-9eca-d56e66d46c89" height="75%" width="100%" alt="set new forest"/>
 </p>
 <p>
-  Restart and then log back into DC-1 as user: myadproject.com\labuser:
+  Restart and then log back into DC-1 as user: mydomain.com\labuser:
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/0856aa21-3f56-4211-b871-b9d899abe264" height="75%" width="100%" alt="fqdn login"/>
