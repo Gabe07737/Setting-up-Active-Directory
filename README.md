@@ -86,7 +86,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/c33dacf2-cfc0-443b-878a-25c6da6452c7" height="75%" width="100%" alt="enable ICMPv4"/>
 </p>
 <p> 
-   From Client-1, open PowerShell and run ipconfig /all,The output for the DNS settings should show DC-1’s private IP Address
+   From Client-1, open PowerShell and run ipconfig /all.The output for the DNS settings should show DC-1’s private IP Address:
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/922e1a52-0e5c-44bf-8a08-3e9d968d08fe" height="75%" width="100%" alt="ping success"/>
@@ -101,7 +101,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
   <img src="https://github.com/user-attachments/assets/a18a2157-513f-4261-8dfc-ece51d82a509" height="75%" width="100%" alt="active directory install"/>
   <img src="https://github.com/user-attachments/assets/fd991303-597a-4fdc-88b3-308258e87692" height="75%" width="100%" alt="active directory install"/>
-  <img src="https://github.com/user-attachments/assets/79a608a9-b8f1-469c-ae10-b2f70da4dd58" height="75%" width="100%" alt="active directory install"/>
+  <img src="https://github.com/user-attachments/assets/79a608a9-b8f1-469c-ae10-b2f70da4dd58" height="75%" width="100%" alt="active directory install"/:
 </p>
 <p>
   Promote as a Domain Controller:
@@ -110,7 +110,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/fc0c5dcb-da3d-4b67-b3d6-0ceefa053f1b" height="75%" width="100%" alt="domain controller promotion"/>
 </p>
 <p>
-  Setup a new forest as mydomain.com (can be anything, just remember what it is - I ultimately did set it up as myadproject.com which you'll see in the next pic):
+  Setup a new forest as mydomain.com:
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/89831c0f-7bac-4d8c-9eca-d56e66d46c89" height="75%" width="100%" alt="set new forest"/>
@@ -148,23 +148,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/6c30fa79-cb89-4c16-8865-ca4455a30cdc" height="75%" width="100%" alt="security group"/>
 </p>
 <p>
-  Make sure to click "Apply" then "Okay" to confirm the changes.
+  Make sure to click "Apply" then "Okay" to confirm the changes:
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/c657b36a-3e56-4022-a4a2-2e8ba44e10ea" height="75%" width="100%" alt="security group"/>
 </p>
 <p>  
-  Log out/close the Remote Desktop connection to DC-1 and log back in as “myadproject.com\jane_admin”. Use jane_admin as your admin account from now on:
+  Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”. Use jane_admin as your admin account from now on:
 </p>
 <p>
   <img src="https://github.com/user-attachments/assets/563c38b2-6abb-4d70-b6e4-1d2eeb646cf9" height="75%" width="100%" alt="admin login"/>
 </p>
 <br />
 <br />
-<h3 align="center">Join Client-1 to your domain (myadproject.com)</h3>
+<h3 align="center">Join Client-1 to your domain (mydomain.com)</h3>
 <br />
 <p>
-  From the Azure Portal, restart Client-1.
+  From the Azure Portal, restart Client-1:
 </p>
 <p>
   Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart):
@@ -175,7 +175,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://github.com/user-attachments/assets/92c23fb4-b871-4fc5-a5ca-4e44ffbbe694" height="75%" width="100%" alt="domain joining"/>
 </p>
 <p>
-  Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain.
+  Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain:
 </p>
 <p>
   Create a new OU named “_CLIENTS” and drag Client-1 into there:
@@ -188,7 +188,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h3 align="center">Setup Remote Desktop for non-administrative users on Client-1</h3>
 <br />
 <p>
-  Log into Client-1 as mydomain.com\jane_admin and open system properties.
+  Log into Client-1 as mydomain.com\jane_admin and open system properties
 </p>
 <p>
   Click “Remote Desktop”.
@@ -212,7 +212,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h3 align="center">Create a bunch of additional users and attempt to log into client-1 with one of the users</h3>
 <br />
 <p>
-  Login to DC-1 as jane_admin
+  Login to DC-1 as jane_admin.
 </p>
 <p>
   Open PowerShell_ise as an administrator.
